@@ -1,0 +1,635 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+}
+.cabezera {
+    
+    background-image: linear-gradient(rgb(6, 6, 87), rgb(8, 66, 189), rgb(6, 6, 87));
+    
+}
+
+ul {
+    
+    list-style: none;
+     width: 33.33%;
+    
+    
+    
+}
+.menuinicio,
+.menuproductos,
+.menucontacto {
+    float: left;
+  
+    
+}
+li a {
+
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    left: -75px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: rgb(6, 6, 87);
+    border-width: 2px;
+    transition: all 2s;
+    
+}
+
+a:hover {
+    background-color: grey;
+    padding: 20px;
+}
+
+ul ul {
+    display: none;
+    position: absolute;
+    
+    min-width: 140px;
+}
+
+li:hover > ul{ 
+    display: block;
+
+}
+
+
+
+
+body {
+    background: rgb(217, 231, 233);
+    color: rgb(0, 0, 0);
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.muebleria {
+    color: white;
+    font-size: 50px;
+    margin-left: 36.5%;
+    margin-top:  -90px;
+    
+}
+
+.logo {
+    padding: 5px;
+    width: 120px;
+    margin-left: 1%;
+    margin-top: 10px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+   
+}
+
+.buscador {
+    width: 15px;
+   
+    
+   
+}
+
+.barrabuscadora {
+    position: relative;
+  
+    top: -50px;
+    left: 85%;
+    
+}
+
+
+
+
+.menu {
+ 
+    
+    position: relative;
+    left: 42%;
+    font-size: 20px;
+}
+
+
+
+.textocentral {
+    font-size: 25px;
+    width: 450px;
+    position: relative;
+    left: 23%;
+    top: 160px;
+   
+
+}
+.fotoindex {
+    width: 650px;
+    position: relative;
+    left: 51%;
+    top: -185px;
+    border-radius: 30%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+}
+
+.correo {
+    width: 60px;
+    position: relative;
+    left: 41.3%;
+    top: -170px;
+    transition: all 2s;
+ 
+}
+
+.correo:hover {
+    width: 70px;
+}
+
+.whatsapp {
+    width: 115px;
+    position: relative;
+    left: 32.5%;
+    top: -153.5px;
+    transition: all 2s;
+   
+}
+
+.whatsapp:hover {
+    width: 130px;
+    }
+
+.fb {
+    width: 60px;
+    position: relative;
+    left: 40.5%;
+    top: -170px;
+    transition: all 2s;
+  
+}
+.fb:hover {
+    width: 70px;
+    }
+
+.ig {
+    width: 60px;
+    position: relative;
+    left: 47.2%;
+    top: -170px;
+    transition: all 2s;
+    }
+.ig:hover {
+    width: 70px;
+}
+
+.copy {
+    width: 15px;
+    position: relative;
+    top: -130px;
+    left: 28.5%;
+}
+
+.byb {
+    position: relative;
+    top: -153px;
+    left: 46.5%;
+}
+
+.correocontacto {
+    width: 60px;
+    position: relative;
+    left: -3px;
+    top: -335px;
+ 
+}
+
+.whatsappcontacto {
+    width: 115px;
+    position: relative;
+    left: -178px;
+    top: -317px;
+   
+}
+
+.fbcontacto {
+    width: 60px;
+    position: relative;
+    left: -26px;
+    top: -335px;
+  
+}
+
+.igcontacto {
+    width: 60px;
+    position: relative;
+    left: 100px;
+    top: -335px;
+ 
+    }
+
+.copycontacto {
+    width: 15px;
+    position: relative;
+    top: -293px;
+    left: -250px;
+}
+
+.bybcontacto {
+    position: relative;
+    top: -318px;
+    left: 100px;
+    font-size: 15px;
+}
+
+
+.correoliving {
+    width: 60px;
+    position: relative;
+    left: -3px;
+    top: 80px;
+ 
+}
+
+.whatsappliving {
+    width: 115px;
+    position: relative;
+    left: -178px;
+    top: 98px;
+   
+}
+
+.fbliving {
+    width: 60px;
+    position: relative;
+    left: -26px;
+    top: 80px;
+  
+}
+
+.igliving {
+    width: 60px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+ 
+    }
+
+.copyliving {
+    width: 15px;
+    position: relative;
+    top: 120px;
+    left: -250px;
+}
+
+.bybliving {
+    position: relative;
+    top: 95px;
+    left: 100px;
+    font-size: 15px;
+}
+
+
+.retroceso {
+    position: relative;
+    left: -1100px;
+    top: 50px;
+    color: black;
+    
+}
+
+
+.titulocontacto {
+    font-size: 33px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -376.5px;
+    top: 50px;
+}
+
+.tituloproducto {
+    font-size: 33px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -376.5px;
+    top: 50px;
+
+}
+
+.tituloliving {
+    font-size: 33px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -430px;
+    top: 50px;
+
+}
+
+.titulodormitorio {
+    font-size: 33px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -379.5px;
+    top: 50px;
+
+}
+
+
+.ubicacion {
+    font-size: 25px;
+    width: 450px;
+    position: relative;
+    top: 110px;
+    left: -350px;
+}
+
+.tel {
+    font-size: 25px;
+    width: 450px;
+    position: relative;
+    top: 109px;
+    left: -350px;
+
+}
+
+.mail {
+    font-size: 25px;
+    width: 450px;
+    position: relative;
+    top: 109px;
+    left: -350px;
+}
+
+.solicitud {
+    font-size: 25px;
+    width: 450px;
+    position: relative;
+    top: 109px;
+    left: -350px;
+}
+
+
+.nombre {
+    background-color: rgb(255, 245, 185);
+    
+    display: block;
+
+    width: 350px;
+    position: relative;
+    top: 109px;
+    left: -320px;
+}
+
+.correoelectronico {
+    background-color: rgb(255, 245, 185);
+    display: block;
+    width: 350px;
+    position: relative;
+    top: 109.5px;
+    left: -320px;
+}
+
+.escribirmensaje {
+    padding-bottom: 60px;
+    background-color: rgb(255, 245, 185);
+    display: block;
+    width: 350px;
+    position: relative;
+    top: 112px;
+    left: -320px;
+}
+
+.borrartodo {
+    position: relative;
+    top: 109px;
+    left: -113px;
+}
+
+.submit {
+    position: relative;
+    top: 109px;
+    left: -120px;
+}
+
+.mapa {
+    position: relative;
+    top: -320px;
+    left: 130px;
+    border-radius: 20%;
+    border-style: double;
+    border-width: 2px;
+}
+
+.living {
+    
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    font-variant: none;
+    left: -425px;
+    top: 100px;
+}
+
+.dormitorio {
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    left: -213px;
+    top: 100px;
+}
+
+.exteriores {
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    left: -20px;
+    top: 100px;
+}
+
+.mesas {
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    left: -415px;
+    top: 100px;
+
+
+}
+
+.sillones {
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    left: -150px;
+    top: 100px;
+
+}
+
+.modulares {
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    left: 75px;
+    top: 100px;
+
+
+}
+
+.camas {
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    left: -360px;
+    top: 100px;
+
+}
+
+.sommiers {
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    left: -50px;
+    top: 100px;
+
+}
+
+.mesasdeluz {
+    font-size: 25px;
+    position: relative;
+    display: inline;
+    justify-content: center;
+    left: 150px;
+    top: 100px;
+}
+
+
+
+.fotoliving {
+
+    
+    width: 400px;
+    position: relative;
+    left: -1200px;
+    top: 75px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+    transition: height 2s, width 2s;
+}
+
+#fotoliving:hover {
+    z-index: 1;
+    width: 425px;
+    height: 425px;
+   
+    
+
+}
+
+.fotodormitorio {
+    z-index: 0;
+    width: 400px;
+    position: relative;
+    left: -1200px;
+    top: 75px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+}
+
+.fotoexteriores {
+    z-index: 0;
+    width: 400px;
+    position: relative;
+    left: 323px;
+    top: -337px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+}
+
+.fotomesas {
+    width: 400px;
+    position: relative;
+    left: -1120px;
+    top: 75px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+
+}
+
+.fotosillones {
+    width: 400px;
+    position: relative;
+    left: -1115px;
+    top: 75px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+
+}
+
+.fotomodulares {
+    width: 400px;
+    position: relative;
+    left: -1115px;
+    top: 75px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+
+}
+
+.fotocamas {
+    width: 400px;
+    position: relative;
+    left: -1050px;
+    top: 75px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+}
+
+.fotosommiers {
+    width: 400px;
+    position: relative;
+    left: -1047px;
+    top: 75px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+}
+
+.fotomesadeluz {
+    width: 400px;
+    position: relative;
+    left: -1045px;
+    top: 75px;
+    border-radius: 50%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    border-style: double;
+}
