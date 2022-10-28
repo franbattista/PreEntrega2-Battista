@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(rgb(6, 6, 87), rgb(8, 66, 189), rgb(6, 6, 87));
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 10px;
+
+
+}
+
+body {
+    background: rgb(217, 231, 233);
+    color: rgb(0, 0, 0);
+    font-family: 'Abyssinica SIL', serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.a:hover {
+    background-color: beige;
+    padding: 20px;
+}
+
+
+.logo {
+    padding: 5px;
+    width: 120px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: rgb(0, 0, 0);
+    margin-left: -90px;
+
+}
+
+
+.buscador {
+    width: 15px;
+}
+
+
+.menu {
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.main {
+
+    grid-row-start: 3;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.fotoindex {
+    width: 650px;
+    border-radius: 30%;
+    border-width: 4px;
+    border-color: rgb(0, 0, 0);
+    margin-top: 20px;
+
+
+
+}
+
+.textocentral {
+    font-size: 25px;
+    width: 450px;
+    text-align: justify;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+
+
+ul {
+
+    list-style: none;
+    width: 33.33%;
+
+}
+
+li a {
+
+    display: block;
+    padding: 10px 15px;
+    position: relative;
+    left: -75px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: rgb(6, 6, 87);
+    border-width: 2px;
+    transition: all 2s;
+
+}
+
+
+
+ul ul {
+    display: none;
+    position: absolute;
+
+    min-width: 140px;
+}
+
+li:hover>ul {
+    display: block;
+
+}
+
+.flexfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+}
+
+.correo {
+    width: 60px;
+
+}
+
+.ig {
+    width: 60px;
+
+}
+
+.fb {
+    width: 60px;
+
+}
+
+.whatsapp {
+    width: 115px;
+    margin-left: -30px;
+
+
+}
+
+
+.copy {
+    width: 15px;
+    position: relative;
+    top: 50px;
+    left: -215px;
+
+}
+
+.byb {
+    position: relative;
+    top: 50px;
+    left: -210px;
+
+}
+
+@media screen and (max-width: 320px) {
+    .logo {
+        width: 40px;
+        position: relative;
+        left: 20px;
+    }
+
+    .titulo {
+        font-size: 10px;
+        position: relative;
+        left: -95px;
+    }
+
+    .barrabuscadora {
+        margin-top: 50px;
+        margin-left: -200px;
+    }
+
+
+
+    .menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 150px;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .textocentral {
+        font-size: 18px;
+
+
+        width: 250px;
+        margin-left: 22px;
+    }
+
+    .fotoindex {
+        width: 250px;
+        margin-left: 22px;
+    }
+
+    .flexfooter {
+        margin-left: 88px;
+
+    }
+
+    .copy {
+        position: relative;
+        left: -200px;
+        top: 60px;
+    }
+
+    .byb {
+        margin-top: 20px;
+        margin-left: 10px;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 40px;
+        position: relative;
+        left: 20px;
+    }
+
+    .titulo {
+        font-size: 10px;
+        position: relative;
+        left: -170px;
+    }
+
+    .barrabuscadora {
+        margin-top: 50px;
+        margin-left: -340px;
+    }
+
+
+
+    .menu {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 150px;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    .textocentral {
+        font-size: 18px;
+
+
+        width: 250px;
+        margin-left: 85px;
+    }
+
+    .fotoindex {
+        width: 250px;
+        margin-left: 85px;
+    }
+
+    .flexfooter {
+        margin-left: 110px;
+
+    }
+
+    .copy {
+        position: relative;
+        left: -200px;
+        top: 60px;
+    }
+
+    .byb {
+        margin-top: 20px;
+        margin-left: 10px;
+
+    }
+
+    .retroceso {
+        margin-left: 400px;
+    }
+
+    .tituloproducto {
+        position: relative;
+        left: -590px;
+        top: 20px;
+    }
+    .grid-container-p {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 100px;
+        
+
+
+    }
+    .imgliv{
+        width: 200px;
+        margin-left: 20px;
+
+
+    }
+
+    .imgdorm{
+        width: 200px;
+        grid-row: 2/3;
+        margin-left: 20px;
+    
+
+    }
+    .imgext{
+        width: 200px;
+        grid-row: 3/4;
+        margin-left: 20px;
+
+    }
+
+    
+    .living {
+        margin-top: -1020px;
+        margin-left: 65px;
+    }
+
+    .dormitorio {
+        margin-top: -500px;
+        margin-left: -565px;
+
+    }
+
+    .exteriores {
+        margin-top: 0px;
+        margin-left: -1075px;
+    }
+    
+}
+
+.retroceso {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.tituloproducto {
+    margin-left: 820px;
+
+}
+
+.grid-container-p {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 80px;
+    margin-top: 40px;
+
+
+
+}
+
+.fotoliving {
+    width: 400px;
+    border-radius: 50%;
+    transition: height 2s, width 2s;
+}
+
+#fotoliving:hover {
+
+    width: 425px;
+    height: 425px;
+
+}
+
+.fotodormitorio {
+    z-index: 0;
+    width: 400px;
+    border-radius: 50%;
+    transition: height 2s, width 2s;
+
+}
+
+#fotodormitorio:hover {
+
+    width: 425px;
+    height: 425px;
+
+
+
+}
+
+.fotoexteriores {
+    z-index: 0;
+    width: 400px;
+
+    border-radius: 50%;
+    transition: height 2s, width 2s;
+
+}
+
+#fotoexteriores:hover {
+
+    width: 425px;
+    height: 425px;
+
+
+
+}
+
+.eleccion {
+    display: flex;
+    flex-direction: row;
+    gap: 463px;
+    margin-left: 185px;
+    margin-top: 20px;
+}
